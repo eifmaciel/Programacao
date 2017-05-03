@@ -1,0 +1,75 @@
+17)
+Algoritmo
+    var num1 :inteiro.
+    inicio
+        escreva ("Digite um número: (de 1 à 399)")
+        leia (num1)
+        se (num1<0) OU (num1>399) entao
+            escreva ("Digite outro número")
+        senao
+            se (num1 = 100) entao 
+                escreva ("C")
+            fimse
+            se (num1 =  200) entao
+                escreva("CC")
+            fimse
+            se (num1 = 300) entao
+                escreva ("CCC") 
+            fimse
+
+            se (num1 = 10) entao
+                escreva("X")
+            fimse
+            se (num1 = 20) entao
+                escreva ("XX")
+            fimse
+            se (num1 = 30) entao
+                escreva ("XXX")
+            fimse
+            se (num1 = 40) entao
+                escreva ("XL")
+            fimse
+            se (num1 = 50) entao
+                escreva ("L")
+            fimse
+            se (num1 = 60) entao
+                escreva ("LX")
+            fimse
+            se (num1 = 70) entao
+                escreva ("LXX")
+            fimse
+            se (num1 = 80) entao 
+                escreva ("LXXX")
+            fimse
+            se (num1 = 90) entao
+                escreva ("XC")
+            fimse
+            se (num1 = 1) entao
+                escreva("I")
+            fimse
+            se (num1 = 2) entao 
+                escreva("II")
+            fimse
+            se (num1 = 3) entao
+                escreva("III")
+            fimse
+            se (num1 = 4) entao 
+                escreva("IV")
+            fimse
+            se (num1 = 5) entao 
+                escreva("V")
+            fimse
+            se (num1 = 6) entao 
+                escreva("VI")
+            fimse
+            se (num1 = 7) entao 
+                escreva("VII")
+            fimse
+            se (num1 = 8) entao 
+                escreva("VIII")
+            fimse
+            se (num1 = 9) entao 
+                escreva("IX")
+            fimse
+        fimse
+    fimalgoritmo

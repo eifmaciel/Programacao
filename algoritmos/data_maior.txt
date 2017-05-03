@@ -1,0 +1,25 @@
+15)
+Algoritmo
+    var dia1, dia2, mes1, mes2, ano1, ano2:inteiro
+    inicio
+        escreva ("Digite duas datas:(dia, mes, ano)")
+        leia (dia1, mes1, ano1, dia2, mes2, ano2)
+        se (ano1<ano2) entao
+           escreva ("Data =" dia1, mes1, ano1," - " dia2, mes2, ano2)
+        senao
+            se (ano1=ano2) entao
+                se (mes1<mes2)entao
+                     escreva ("Data =" dia1, mes1, ano1," - " dia2, mes2, ano2)
+                senao
+                    escreva ("Data =" dia2, mes2, ano2," - " dia1, mes1, ano1)
+                fimse
+            senao
+                se (ano2>ano1) entao
+                    escreva ("Data =" dia2, mes2, ano2," - " dia1, mes1, ano1)
+                fimse
+            fimse
+        fimse
+    fimalgoritmo
+        
+        
+

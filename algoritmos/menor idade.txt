@@ -1,0 +1,16 @@
+16)
+Algoritmo
+    var nasdia, nasmes, nasano, dia, mes, ano, idade:inteiro
+    inicio
+        escreva("Digite a data de seu nascimento: (dia, mes, ano)")
+        leia (nasdia, nasmes, nasano)
+        escreva("Digite a data de hoje")
+        leia(dia, mes, ano)
+        idade -> ano - nasano    
+        se (idade >= 18) entao
+            escreva("É maior de idade")
+        senao
+            escreva("É menor de idade")
+        fimse
+    fimalgoritmo
+
